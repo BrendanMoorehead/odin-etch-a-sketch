@@ -1,3 +1,11 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: none;
+    font-family: 'Open Sans', sans-serif;
+}
 .content-wrapper{
     display: flex;
     flex-direction: column;
@@ -7,7 +15,27 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 20px;
     height: 20px;
+    border-radius: 5px;
 }
 .board-wrapper{
     display: grid;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.dimension-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+}
+.color-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
 }
